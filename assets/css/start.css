@@ -1,0 +1,17 @@
+#book-1,#book-2,#book-3{
+    margin-top: 30px;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    /*background-image: url(../pics/unit.PNG);*/
+
+}
+#book-1{
+    background-image: url(../pics/bk1.PNG); 
+}
+#book-2{
+    background-image: url(../pics/bk2.PNG); 
+}
+#book-3{
+    background-image: url(../pics/bk3.PNG); 
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>ESL App</title>
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="./assets/bulmacss/bulma.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <!--Script for the cartoon animation-->
+    <script type="module" defer src="./assets/js/bobo.js"></script>
+
+  </head>
+
+  <body>
+
+    <!-- ---------------------------  Modal Starts Here  ------------------------------------------------>
+    <div class="modal" id="modal">
+      <div class="modal-background">
+        <section class="hero is-fullheight" id="main-modal">
+          <div class="hero-body">
+            <div class="container">
+              <div class="columns">
+                <div class="column">
+                  <div class="saying ">
+                    <h2>Hi there!</h2>
+                    <p class="subtitle"><span id="chinese">你好</span><br>This is Platform for Learning English the fun way.</p>
+                    <button class="button is-large sta animate__animated animate__infinite animate__rubberBand animate__slow closeModal" id="closeModal">Explore</button>
+                </div>
+                </div>
+                <div class="column">
+                  <div id="bobo" class="avatar animate__animated animate__pulse animate__infinite animate__slow ">
+                    <img class="bob" src="./assets/pics/bob.svg">
+                  </div>
+                </div>
+              </div>
+              <h2 class="subtitle">
+              </h2>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="modal-content">
+      </div>
+      <!--<button class="modal-close is-large" aria-label="close" id="closeModal"></button>-->
+    </div>
+  </div>
+
+  <section class="hero is-info is-large is-fullheight" id="hero">
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item" id="logo">
+              杭州英拓培训学校
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenuHeroB">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroB" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item " id="start-page-1">
+                HOME
+              </a>
+              <a class="navbar-item" id="start-page-2">
+                BACK
+              </a>
+              <a class="navbar-item" id="start-page-3">
+                INFO
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
+    <div class="container" id="content">
+
+    </div>
+
+  </section>
+
+
+  <script type ="module" src="./assets/js/load.js"></script>
+  <script type ="module" src="./assets/js/test.js"></script>
+
+  </body>
+</html>
